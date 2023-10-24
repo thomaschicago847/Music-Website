@@ -17,6 +17,8 @@ body{
     background-image: url(images/Thomas\ Martin-3.jpg);
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
+
 }
 .container{
     padding: 10px 10%;   
@@ -30,7 +32,7 @@ nav{
 }
 
 .logo{
-    width: 140 px;
+    width: 240px;
 }
 
 nav ul li{
@@ -317,25 +319,14 @@ form btn2{
 .copyright i{
     color: #ff004f;
 }
-/*---------------------booking page-------------*/
-.my-table {
-    background-color: black;
-    color: #fff;
-    width: 100%;
-    border-collapse: collapse; /* Remove spacing between table cells */
+.copyright a{
+    color: #ff004f;
+    text-decoration: none;
 }
 
-.my-table tr {
-    border-bottom: 1px solid #ccc; /* Add a bottom border to each row */
-}
-
-.my-table td {
-    padding: 10px;
-    border: 1px solid #ccc;
-}
-/*-------test booking page------*/
+/*-------booking page------*/
 #bookingpage{
-    padding: 80px 0;
+    padding: 80 px 0;
     color: #ababab;
 }
 li a{
@@ -400,30 +391,11 @@ li a{
     display: block;
 }
 
-.expandable-table{
-    width: 100%;
-    border-collapse: collapse;
-}
-
-.expandable-row .row-header {
-    cursor: pointer;
-    background-color: #f0f0f0;
-    padding: 10px;
-}
-
-.expandable-row .row-content {
-    display: none;
-    padding: 10px;
-    border: 1px solid #ccc;
-}
-
-
 
 /*-----------css for small screens------*/
 nav .fa-solid{
     display: none;
 }
-
 @media only screen and (max-width: 600px){
     #header{
         background-image: url(images/Thomas\ Martin-2\ 2.jpeg);
@@ -435,7 +407,7 @@ nav .fa-solid{
     .header-text h1{
         font-size: 30px;
     }
-    nav .fas{
+    nav .fa-solid{
         display: block;
         font-size: 25px;
     }
@@ -454,7 +426,7 @@ nav .fa-solid{
         display: block;
         margin: 25px;
     }
-    nav ul .fas{
+    nav ul .fa-solid{
         position: absolute;
         top: 25px;
         left: 25px;
