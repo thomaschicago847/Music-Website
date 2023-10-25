@@ -140,9 +140,9 @@ nav ul li a:hover::after{
     display: block;
 }
 
-/*----------booking--------------*/
+/*----------home page booking tiles--------------*/
 #booking{
-    padding: 30px 0;
+    padding: 30px 0px;
 }
 .services-list{
     display: grid;
@@ -325,8 +325,8 @@ form btn2{
 }
 
 /*-------booking page------*/
-#bookingpage{
-    padding: 80 px 0;
+/* #bookingpage{
+    padding: 80px 0;
     color: #ababab;
 }
 li a{
@@ -389,7 +389,7 @@ li a{
 }
 .tab-contents.active-tab{
     display: block;
-}
+} */
 
 
 /*-----------css for small screens------*/
