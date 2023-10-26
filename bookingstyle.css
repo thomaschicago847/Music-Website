@@ -79,7 +79,6 @@ nav ul li a:hover::after{
 }
 .booking-tabs{
     width: 100%;
-    padding: 2rem;
 }
 .sub-title{
     font-size: 60px;
@@ -133,6 +132,11 @@ nav .fa-solid{
 @media only screen and (max-width: 600px){
     #header{
         background-image: url(images/Thomas\ Martin-2\ 2.jpeg);
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
     .header-text{
         margin-top: 100%;
