@@ -75,6 +75,11 @@ nav ul li a:hover::after{
 }
 .booking-col-1{
     flex-basis: 100%;
+    width: 100%;
+}
+.booking-tabs{
+    width: 100%;
+    padding: 2rem;
 }
 .sub-title{
     font-size: 60px;
@@ -82,8 +87,9 @@ nav ul li a:hover::after{
     color: #fff;
 }
 .tab-titles{
-    display: block;
+    display: flex;
     margin: 20px 0 40px;
+    overflow-x: scroll;
 }
 .tab-links{
     margin-right: 50px;
