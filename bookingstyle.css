@@ -75,6 +75,10 @@ nav ul li a:hover::after{
 }
 .booking-col-1{
     flex-basis: 100%;
+    width: 100%;
+}
+.booking-tabs{
+    width: 100%;
 }
 .sub-title{
     font-size: 60px;
@@ -82,8 +86,9 @@ nav ul li a:hover::after{
     color: #fff;
 }
 .tab-titles{
-    display: block;
+    display: flex;
     margin: 20px 0 40px;
+    overflow-x: scroll;
 }
 .tab-links{
     margin-right: 50px;
@@ -127,6 +132,11 @@ nav .fa-solid{
 @media only screen and (max-width: 600px){
     #header{
         background-image: url(images/Thomas\ Martin-2\ 2.jpeg);
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
     .header-text{
         margin-top: 100%;
